@@ -1,0 +1,4 @@
+/home/joao/PARI/Aula12/git/joao-paula_pari2017/build/CMakeFiles/rebuild_cache.dir
+/home/joao/PARI/Aula12/git/joao-paula_pari2017/build/CMakeFiles/cpfiles.dir
+/home/joao/PARI/Aula12/git/joao-paula_pari2017/build/CMakeFiles/edit_cache.dir
+/home/joao/PARI/Aula12/git/joao-paula_pari2017/build/CMakeFiles/myf.dir
