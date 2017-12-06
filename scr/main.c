@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         // use signal to catch SIGINT  (CTRL-C) - optional
         signal(SIGINT, InterceptCTRL_C);
 
-	p_InitTimer();
+	
 
         /* start the event loop */
         gtk_main();

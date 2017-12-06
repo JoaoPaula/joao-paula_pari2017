@@ -38,14 +38,7 @@ void InterceptCTRL_C(int a)
 }
 
 
-void on_button2_clicked(GtkWidget * widget, gpointer user_data)
-{
-  gboolean a=gtk_switch_get_active(user_data); //user data points to switch
-  if (a == FALSE)
-        printf("Must enable the Quit switch before leaving\n");
-  else
-        gtk_main_quit();
-}
+
 
 void on_button1_clicked(GtkWidget *widget, gpointer user_data)
 {
