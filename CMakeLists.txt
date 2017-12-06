@@ -7,10 +7,10 @@ set(PROG myf)
 set(SOURCES src/main.c src/myf.c src/callbacks.c) #alternative command for wildcards: file(GLOB SOURCES "src/*.c")
 add_executable(${PROG} ${SOURCES})
 
-find_package(PkgConfig REQUIRED)  #necessary for next command to work
-pkg_check_modules(GTK REQUIRED gtk+-3.0)
+find_package(OpenCV 2 REQUIRED)  #necessary for next command to work
+pkg_check_modules(GTK REQUIRED gtk+-2.0)
 
-include_directories(${GTK_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${GTK_LIBRARY_DIRS})
 
 target_link_libraries(${PROG} ${GTK_LIBRARIES} )
